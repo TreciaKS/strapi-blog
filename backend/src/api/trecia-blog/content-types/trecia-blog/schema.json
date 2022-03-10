@@ -4,7 +4,8 @@
   "info": {
     "singularName": "trecia-blog",
     "pluralName": "trecia-blogs",
-    "displayName": "TreciaBlog"
+    "displayName": "blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,11 +23,12 @@
       "required": false
     },
     "blogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "categories": {
       "type": "relation",
